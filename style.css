@@ -227,8 +227,9 @@ li {
         padding: 10px 22px;
     }
       nav .nav-links {
-        display: none;
+        display: none !important;
     }
 }
+
 
 
