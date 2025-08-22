@@ -226,9 +226,10 @@ li {
         font-size: 0.9rem;
         padding: 10px 22px;
     }
-.in-bl{
-    display: none;}
+    nav ul, nav li, nav a, .in-bl {
+        display: none !important;
 }
+
 
 
 
