@@ -130,7 +130,7 @@ nav {
 
 /* Mobile Menu */
 
-@media (max-width: 800px) {
+@media (max-width: 500px) {
     .nav-links {
         position: absolute;
         top: 60px;
@@ -341,3 +341,4 @@ li {
         padding: 10px 22px;
     }
 }
+
