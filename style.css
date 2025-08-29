@@ -80,9 +80,10 @@
      gap: 35px;
      transition: right 0.4s ease-in-out;
  }
- 
+ .nab-links li a{
+      list-style-type: none;
  .nav-links li {
-     list-style: none;
+     list-style-type: none;
  }
  
  .nav-links a {
@@ -227,6 +228,7 @@
       .con{
            display:none !important;
  }
+
 
 
 
