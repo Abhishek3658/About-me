@@ -117,7 +117,7 @@
      .nav-links {
          position: absolute;
          top: 65px;
-         right: -150px;
+         right: -50px;
          flex-direction: column;
          background: #111827;
          
@@ -139,7 +139,7 @@
      display: flex;
      justify-content: center;
      align-items: center;
-     
+     height: 100dvh;
      padding: 20px;
  }
  
@@ -260,6 +260,7 @@
          padding: 10px 22px;
      }
  }
+
 
 
 
