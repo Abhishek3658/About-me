@@ -118,14 +118,14 @@
      box-shadow: 0 8px 25px rgba(0, 0, 0, 0.5);
  }
  
- .card .img {
-     width: 100px;
-     height: 100px;
-     background: #fff;
-     border-radius: 20px;
-     margin: 0 auto 20px auto;
- }
- 
+  .card .img {
+         width: 100px;
+         height: 100px;
+         margin: 0 auto 20px auto;
+         display: flex;
+         border-radius: 10%;
+         justify-self: center;
+     }
  .card span {
      font-weight: 700;
      font-size: 1.6rem;
@@ -227,6 +227,7 @@
       .con{
            display:none !important;
  }
+
 
 
 
