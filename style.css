@@ -104,7 +104,7 @@
      display: flex;
      justify-content: center;
      align-items: center;
-     height: 110dvh;
+     min-height: 100vh;
      padding: 20px;
  }
  
@@ -227,6 +227,7 @@
       .con{
            display:none !important;
  }
+
 
 
 
