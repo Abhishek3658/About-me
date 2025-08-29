@@ -95,42 +95,7 @@
  .nav-links a:hover {
      color: #facc15;
  }
- /* Hamburger */
- 
- .hamburger {
-     display: none;
-     flex-direction: column;
-     gap: 5px;
-     cursor: pointer;
- }
- 
- .hamburger span {
-     width: 25px;
-     height: 3px;
-     background: white;
-     border-radius: 2px;
-     transition: 0.3s;
- }
- /* Mobile Navbar */
- 
- @media (max-width: 800px) {
-     .nav-links {
-         position: absolute;
-         top: 65px;
-         right: -50px;
-         flex-direction: column;
-         background: #111827;
-         
-         padding: 20px;
-         border-radius: 12px;
-     }
-     .nav-links.active {
-         right: 15px;
-     }
-     .hamburger {
-         display: flex;
-     }
- }
+
  /* Main Card */
  
  .c-n-t {
@@ -260,6 +225,7 @@
          padding: 10px 22px;
      }
  }
+
 
 
 
